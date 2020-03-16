@@ -1,0 +1,10 @@
+= pcd
+
+Print current directory
+
+== Install
+
+[source,shell]
+----
+fisher add github.com/mimikun/pcd
+----
