@@ -6,5 +6,5 @@ Print current directory
 
 [source,shell]
 ----
-fisher add github.com/mimikun/pcd
+fisher install mimikun/pcd
 ----
