@@ -1,10 +1,9 @@
-= pcd
+# pcd
 
 Print current directory
 
-== Install
+## Install
 
-[source,shell]
-----
+```shell
 fisher install mimikun/pcd
-----
+```
