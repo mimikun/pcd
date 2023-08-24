@@ -37,8 +37,13 @@ clean :
 lint :
 	shellcheck ./$(product_name).sh
 
+.PHONY : pwsh_test
+pwsh_test :
+	@echo "Run PowerShell ScriptAnalyzer"
+	@pwsh -Command "& {Invoke-ScriptAnalyzer ./Get-CurrentLocation.ps1}"
+
 .PHONY : test
-test : lint
+test : lint pwsh_test
 
 .PHONY : format
 format :

@@ -18,6 +18,12 @@ make install
 fisher install mimikun/pcd
 ```
 
+### PowerShell
+
+```powershell
+WIP
+```
+
 ## Usage
 
 ```shell
