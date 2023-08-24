@@ -6,7 +6,7 @@ Print current directory
 
 ### Bash
 
-```
+```shell
 git clone https://github.com/mimikun/pcd.git
 cd pcd
 make install
